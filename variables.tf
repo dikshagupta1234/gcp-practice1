@@ -1,5 +1,5 @@
 variable "instance_name" {
-  type = "string"
+  type = string
 }
 
 variable "machine_type" {
@@ -38,7 +38,7 @@ variable "credential" {
 }
 
 variable "tags" {
-  type = "list"
+  type = list
   description = "tags is used for defining the rule of a instance"
 }
 
