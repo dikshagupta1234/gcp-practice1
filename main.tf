@@ -30,11 +30,11 @@ resource "google_compute_instance" "default" {
   }
 
   service_account {
-    email = "${var.service_account}"
+   # email = "${var.service_account}"
     scopes = ["cloud-platform"]
   }
 
-  metadata_startup_script  = "${file("./start.sh")}"
+#  metadata_startup_script  = "${file("./start.sh")}"
 }
 
 output "ip" {

@@ -4,7 +4,7 @@ variable "instance_name" {
 
 variable "machine_type" {
   description = "specified image id for instance"
-  default = "n1-standard-1"
+  default = "e2-micro"
 }
 
 variable "region" {
@@ -42,6 +42,8 @@ variable "tags" {
   description = "tags is used for defining the rule of a instance"
 }
 
+/*
 variable "service_account" {
   default = "service.account@gmail.com"
 }
+*/
