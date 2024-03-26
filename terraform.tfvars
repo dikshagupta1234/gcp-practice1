@@ -1,5 +1,5 @@
 instance_name = "terraform-tutorial-dev"
 project = "technicalguftugu1"
 credential = "credential.json"
-region = "us-central1-a"
+region = "us-central1-b"
 tags = ["gcp", "dev", "terraform"]
